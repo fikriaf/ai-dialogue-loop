@@ -147,7 +147,7 @@
         chatBox.appendChild(div1);
         scrollToBottom();
 
-        pesan = await kirimPesan(pesan, '/stream1.php');
+        pesan = await kirimPesan(pesan, '/api/stream1.php');
 
         const div2 = document.createElement('div');
         div2.className = 'ai ai2';
@@ -155,7 +155,7 @@
         chatBox.appendChild(div2);
         scrollToBottom();
 
-        pesan = await kirimPesan(pesan, '/stream2.php');
+        pesan = await kirimPesan(pesan, '/api/stream2.php');
       }
     }
 
