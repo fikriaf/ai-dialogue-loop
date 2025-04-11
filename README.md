@@ -20,6 +20,7 @@ A never-ending chat simulation between two AIs with distinct personalities, taki
 ├── ai.js                -> Main chat AI
 ├── package.json         -> Node.js library used
 └── package-lock.json    -> Node.js config
+└── index.html           -> UI Website
 ```
 
 ## How to Run
@@ -30,7 +31,12 @@ A never-ending chat simulation between two AIs with distinct personalities, taki
      php -S localhost:8000
      ```
 
-2. **Start Node.js Server**
+2. **Have 2 way to run:**
+   
+   **Start using Browser**
+   - Just open file `index.html`
+     
+   **Start using Node.js Server**
    - Install dependencies and run:
      ```bash
      npm install
@@ -42,9 +48,6 @@ A never-ending chat simulation between two AIs with distinct personalities, taki
 - **Elektra :** Short replies, emotional, quirky
 - **Lukas :** Chill, casual, to the point
 
-## Keywords
-
-nodejs, php, ai-chat, chat-loop, auto-conversation, streaming-response, express, real-time-chat
 
 ## Note
 
